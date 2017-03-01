@@ -1,0 +1,91 @@
+.overlay
+{
+	background: rgba(34, 34, 34, 0.85);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	color: #ffffff;
+}
+body
+{
+	text-align:center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: auto;
+	color: #D3D3D3;
+}
+.mySlides
+{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+	
+}
+.start img
+{
+	width:180px;
+	height:160px;
+	float:left;
+}
+.description
+{
+	font-size:23px;
+    padding: 15px;
+    text-align: center;
+	
+}
+.content overlay
+{
+    background: rgba(80, 34, 34, 0.4);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: auto;
+	padding: 2px 0 ;
+	color: #D3D3D3;
+}
+h1
+{
+	text-align:center;
+	font-size:70px;
+}
+.item
+{
+	margin: 5px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	text-align:center;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+img
+{
+	width:800px;
+	height:400px;
+	position:center;
+	margin: auto;
+    width: 70%;
+    border: 3px solid white;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Check-in</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+<div class="overlay">
+<div class="start">
+<img src="start.png">
+  <h1>Check <i><b>in</b></i><h3>A new dawn for IT</h3><hr></h1>
+
+</div>
+  
+  
+     <ul>
+		  <li><a href="#">Home</a></li>
+		  <li><a href="#">Current Events</a></li>
+		  <li><a href="#">create event</a></li>
+		  <li><a href="#">My events</a></li>
+		  <li><a href="#">Nearest Event</a></li>
+		  <li><a href="#">Log in or sing up</a></li>
+		  <li><a href="#">Contact</a></li>
+		  <li><a href="#">About</a></li>
+     </ul>
+</div>
+<div class="content">
+     <div class="overlay">
+   <h2>Latest Updates</h2>
+    <div class="item">
+  <a href="04.jpg"><img class="mySlides" src="01.jpg"></a>
+  <div class="description">Cape rio 6 to 6 ....non stop</div>
+  </div>
+  <div class="item">
+  <a href="04.jpg"><img class="mySlides" src="02.jpg"></a>
+  <div class="description">Till the sun rise</div>
+  </div>
+  <div class="item">
+  <a href="04.jpg"><img class="mySlides" src="03.jpg"></a>
+  <div class="description">Limitless</div>
+  </div>
+  <div class="item">
+  <a href="04.jpg"><img class="mySlides" src="04.jpg"></a>
+  <div class="description">This is where the fun starts</div>
+  </div>
+	 </div>
+
+</div>
+
+
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("item");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 1000); 
+}
+</script>
+</body>
+</html>
